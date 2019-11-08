@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+    http://www.springframework.org/schema/beans/spring-beans-3.2.xsd">
+    <bean class="com.bdqn.classInfo.A" id="a">
+        <property name="name">
+            <value>张嘎</value>
+        </property>
+        <property name="a">
+            <value>三天不大鬼子，手都痒痒了</value>
+        </property>
+    </bean>
+    <bean class="com.bdqn.classInfo.A" id="ab">
+        <property name="name">
+            <value>rou</value>
+        </property>
+        <property name="a">
+            <value>asdfsdaf</value>
+        </property>
+    </bean>
+
+</beans>
